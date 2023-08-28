@@ -1,0 +1,44 @@
+.colores {
+    color: brown;
+}
+
+.color-hexadecimal {
+    color: #53A2BE;
+}
+
+.color-rgb {
+    color: rgb(85, 50, 192);
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 6);
+}
+
+.fondo {
+    background-image: url("https://images4.alphacoders.com/132/thumbbig-1322426.webp");
+    background-position: center center;
+}
+
+.fondo-interno {
+    background-image: url("imagenes/fondoo.jpeg");
+    background-position: center center;
+}
+
+.ancho {
+    background-color: blue;
+    width: 100px;
+}
+
+.alto {
+    background-color: rgb(39, 71, 71);
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 20, 50);
+    border-width: 1px;
+    border-top: none;
+    padding: 10px;
+    margin: 20px;
+}

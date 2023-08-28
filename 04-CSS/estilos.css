@@ -1,0 +1,39 @@
+h1 {
+    color:chartreuse;
+}
+/*soy un comentario*/
+p{
+    color: aqua;
+    font-size: 50pt;
+}
+
+#pan{
+    color: blueviolet;
+    font-size: 20pt;
+}
+
+#chocolate{
+    color: brown;
+    font-size: 30pt;
+}
+
+.h2{
+    color: crimson;
+    text-transform: lowercase;
+}
+
+*.oli {
+    color: darkgreen;
+}
+
+.autor, .fecha, .ubicacion, p{
+    text-decoration: underline;
+}
+
+.fecha{
+    text-decoration: underline;
+}
+
+.ubicacion{
+    text-decoration: line-through;
+}
