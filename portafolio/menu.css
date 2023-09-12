@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: rgb(95, 86, 86);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+}
+.h55{
+  font-family: 'Qwitcher Grypen', cursive;
+  font-family: 'Rubik Iso', cursive;
+    text-decoration: none;
+    color: rgb(95, 86, 86);
+    background-color: black;
+    text-align: center;
+    width: 2000px;
+}
+
+.boton1{
+    text-decoration: none;
+    display:inline-block;
+    width:80%;
+    padding:20px;
+    border: 5px solid rgb(133, 119, 119);
+    border-radius:50px;
+    text-decoration: none;
+    color:rgb(95, 86, 86);
+    font-weight: bold;
+    transition: all 0.9s;
+    text-align: center;
+    font-size: 30px;
+    
+  }
+
+  .boton2{
+    text-decoration: none;
+    display:inline-block;
+    width:80%;
+    padding:20px;
+    border: 5px solid rgb(133, 119, 119);
+    border-radius:50px;
+    text-decoration: none;
+    color:rgb(95, 86, 86);
+    font-weight: bold;
+    transition: all 0.8s;
+    text-align: center;
+    font-size: 30px;
+    
+  }
+
+  .boton1:hover{
+    background:rgb(54, 38, 38);
+    color:rgb(179, 158, 158);
+  }
+  .boton2:hover{
+    background:rgb(54, 38, 38);
+    color:rgb(179, 158, 158);
+  }
+
+
+.large-text{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: rgb(95, 86, 86);
+    display: inline-block;
+    transition: color 0.3s;
+    width: 1700px;
+
+}
+.large-text:hover{
+    color: rgb(133, 119, 119);
+}
+.small-text{
+  font-family: 'Lobster', cursive;
+    font-size: 16px;
+    color: rgb(95, 86, 86);
+    text-align: center;
+}

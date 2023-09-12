@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    width: 200px; /* Tamaño de la imagen en píxeles */
+    height: 200px; /* Altura de la imagen en píxeles */
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin: 10px;
+}
+
+img:hover {
+    transform: rotateY(180deg); /* Gira la imagen al pasar el ratón por encima */
+}
+
+.image-text {
+    display: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+img:hover + .image-text {
+    display: block; /* Muestra el texto al pasar el ratón por encima de la imagen */
+}
+
+h1{
+    color: aliceblue;
+}
+.boto{
+    text-decoration: none;
+    display:inline-block;
+    width:90%;
+    padding:15px;
+    border: 5px solid rgb(133, 119, 119);
+    border-radius:110px;
+    text-decoration: none;
+    color:rgb(95, 86, 86);
+    font-weight: bold;
+    transition: all 0.9s;
+    text-align: center;
+    font-size: 15px;
+}
+.boto:hover{
+ 
+    background:rgb(54, 38, 38);
+    color:rgb(179, 158, 158);
+  }
